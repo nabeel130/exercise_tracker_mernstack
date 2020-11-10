@@ -29,7 +29,9 @@ class CreateUser extends Component {
         console.log(user);
 
 
-        window.location = '/';
+        this.setState({
+            username: ''
+        })
     }
 
 
